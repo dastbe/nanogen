@@ -1,0 +1,10 @@
+[package]
+name = "nanogen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.53", features = ["derive"] }
+clap_derive = "4.5.49"
+nanoid = "0.4.0"
+nid = "3.0.0"
